@@ -1,82 +1,73 @@
 body {
-  font-family: "Karla", sans-serif;
-  background-color: hsl(204, 43%, 93%);
-  overflow: hidden;
+    font-family: "Karla", sans-serif;
+    background-color: hsl(204, 43%, 93%);
+    overflow: hidden;
 }
 
 .header {
-  grid-area: hd;
-  padding: 5%;
-  background-color: white;
-  border-radius: 5px;
+    grid-area: hd;
+    padding: 5%;
+    background-color: white;
+    border-radius: 5px;
 }
 
 .header h3 {
-  color: hsl(179, 62%, 43%);
+    color: hsl(179, 62%, 43%);
 }
 
 .green {
-  color: hsl(71, 73%, 54%);
+    color: hsl(71, 73%, 54%);
 }
 
 .gray {
-  color: gray;
+    color: gray;
 }
 
 .aside {
-  grid-area: as;
-  background-color: hsl(179, 62%, 43%);
-  padding: 5%;
-  color: white;
+    grid-area: as;
+    background-color: hsl(179, 62%, 43%);
+    padding: 5%;
+    color: white;
 }
 
 span {
-  color: gray;
-  font-size: 16px;
-  font-weight: 400;
+    color: gray;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 button {
-  min-width: 50%;
-  height: 40px;
-  background-color: hsl(71, 73%, 54%);
-  border-radius: 5px;
+    min-width: 50%;
+    height: 40px;
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 5px;
 }
 
 .aside p {
-  font-size: 22px;
-  font-weight: 700;
-}
-.content {
-  grid-area: main;
-  padding: 5%;
-  background-color: hsla(189, 80%, 47%, 0.829);
-  color: white;
-  line-height: 2;
+    font-size: 22px;
+    font-weight: 700;
 }
 
-footer {
-  grid-area: fr;
-  margin-top: 7%;
-  text-align: center;
-  font-size: 11px;
+.content {
+    grid-area: main;
+    padding: 5%;
+    background-color: hsla(189, 80%, 47%, 0.829);
+    color: white;
+    line-height: 2;
 }
 
 .wrapper {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-auto-rows: minmax(100px, auto);
-  grid-template-areas:
-    "hd hd hd hd hd hd hd hd "
-    " as as as as main main main main"
-    "fr fr fr fr fr fr fr fr";
-  padding: 3% 25%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: "hd hd hd hd hd hd hd hd " " as as as as main main main main" "fr fr fr fr fr fr fr fr";
+    padding: 3% 25%;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
-  text-decoration: none;
-  color: red;
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+    color: red;
 }
 
 @media (max-width: 720px) {
@@ -89,7 +80,6 @@ footer {
         display: list-item;
         padding: 5%;
     }
-
     button {
         min-width: 100%;
     }
